@@ -48,7 +48,7 @@ Database: menudb
 | Part | Tool |
 | ----- | ------- |
 | back-end | IntelliJ(완성본) |
-| SQL(DB) | IntelliJ(완성) |
+| SQL(DB) | IntelliJ(완성본) |
 | front-end | Antigravity, React |
 
 
