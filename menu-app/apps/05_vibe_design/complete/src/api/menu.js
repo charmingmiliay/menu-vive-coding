@@ -1,9 +1,7 @@
-/* menu.js - Spring Boot menudb REST API 요청 */
-
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_MENU_API_BASE ?? 'http://localhost:8080/api'
+    baseURL: import.meta.env.VITE_MENU_API_BASE ?? '/api'
 });
 
 function getResult(response) {
@@ -46,5 +44,4 @@ export async function updateMenu(menuCode, menu) {
 
 export async function deleteMenu(menuCode) {
     await api.delete(`/menus/${menuCode}`);
-    return Number(menuCode);
 }
