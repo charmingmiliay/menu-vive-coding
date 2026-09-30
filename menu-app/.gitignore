@@ -1,0 +1,28 @@
+# 의존성 — 앱마다 npm install 로 다시 받는다
+node_modules/
+
+# 빌드 결과물
+dist/
+
+# Vite 캐시
+.vite/
+
+# IDE / 에디터
+.idea/
+.vscode/
+
+# OS 생성 파일
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 로그
+npm-debug.log*
+yarn-error.log*
+
+# 임시 파일
+~$*
+*.tmp
+
+# 수업 중 학생이 만든 개인 작업물
+practice/

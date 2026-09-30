@@ -1,0 +1,22 @@
+/* 구조만 보이는 최소 스타일. 디자인은 4일차에서 다룬다. */
+
+body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; }
+.app { max-width: 720px; margin: 0 auto; }
+.header a { text-decoration: none; color: inherit; }
+h1 { font-size: 1.5rem; margin: 0 0 16px; }
+
+.search { width: 100%; padding: 8px; margin-bottom: 16px; box-sizing: border-box; }
+
+.status { padding: 24px 0; }
+.status-error { color: #c00; }
+.status-loading, .status-empty { color: #666; }
+
+.grid { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.cell { width: 120px; text-align: center; }
+.cell a { text-decoration: none; color: inherit; display: block; }
+.name { display: block; font-size: 0.8rem; color: #666; }
+
+.detail dl { display: grid; grid-template-columns: 80px 1fr; gap: 4px 12px; }
+.detail dt { color: #666; }
+.detail dd { margin: 0; }
+.detail button { margin: 16px 8px 0 0; padding: 6px 12px; }
